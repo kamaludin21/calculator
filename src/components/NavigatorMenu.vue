@@ -1,11 +1,11 @@
 <script>
   import CalculatorIcon from './icons/CalculatorIcon.vue'
-  import CurrencyIcon from './icons/CurrencyIcon.vue'
+  import GithubIcon from './icons/GithubIcon.vue'
   import TrashIcon from './icons/TrashIcon.vue'
 
   export default {
     name: 'NavigatorMenu',
-    components: { CalculatorIcon, CurrencyIcon, TrashIcon },
+    components: { CalculatorIcon, GithubIcon, TrashIcon },
 		props: {
 			deleteHistory: Function
 		}
@@ -18,10 +18,10 @@
         <calculator-icon class="text-blue-500" />
         <p class="text-sm font-medium text-blue-500">Calculator</p>
       </div>
-      <div class="menu">
-        <currency-icon class="" />
-        <p class="text-sm font-medium">Currency</p>
-      </div>
+      <a href="" target="_blank" class="menu">
+        <github-icon class="" />
+        <p class="text-sm font-medium">Github</p>
+      </a>
     </div>
     <div class="menu">
       <trash-icon @click="deleteHistory" />
