@@ -2,6 +2,8 @@
 
 Simple calculator app build with javascript
 
+[Live Demo](https://calculator-vert-beta.vercel.app/)
+
 ## Stack
 - [VueJS](https://vuejs.org/)
 -	[Vite](https://vitejs.dev/)
